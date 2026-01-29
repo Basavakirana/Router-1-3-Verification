@@ -19,3 +19,24 @@ class env_config extends uvm_object;
         function env_config:: new(string name = "env_config");
                 super.new(name);
         endfunction
+
+ /*               class env_config extends uvm_object;
+
+  `uvm_object_utils(env_config)
+
+  int no_of_source;
+  int no_of_destination;
+  bit has_scoreboard;
+  bit has_vsequencer;
+  bit has_sagent;
+  bit has_dagent;
+
+  source_agt_config s_configh[];
+  dest_agt_config   d_configh[];
+
+  function new(string name = "env_config");
+    super.new(name);
+  endfunction
+
+endclass   */
+
